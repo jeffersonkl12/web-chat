@@ -1,0 +1,24 @@
+.buttonGradiente{
+    display: inline-block;
+
+    background: linear-gradient(90deg, rgba(36,32,0,1) 0%, rgba(190,41,11,1) 0%, rgba(230,182,39,1) 77%);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 8px 5px;
+
+    width: 100%;
+    
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.buttonGradiente:hover{
+    background: none;
+    color: black;
+
+    box-shadow: 0 0 1px 1px black;
+}

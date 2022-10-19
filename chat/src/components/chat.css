@@ -1,0 +1,17 @@
+.chat-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    margin: auto;
+    border: 1px solid black;
+    width: 1600px;
+}
+
+.chat-container-contatos{
+    width: 400px;
+}
+
+.chat-container-msg{
+    width: 1200px;
+}
